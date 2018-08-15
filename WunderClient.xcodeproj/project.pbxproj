@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35E3BEDE62873D67CC28B16F /* Pods_WunderClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844F07868852C8917FE8D5CF /* Pods_WunderClient.framework */; };
+		490FB3D7552B56D85AB12D54 /* Pods_WunderClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A87DA6A644A43D6EA0FAD2 /* Pods_WunderClientUITests.framework */; };
+		6471CDDD212377A900F58166 /* Placemark+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471CDDB212377A900F58166 /* Placemark+CoreDataClass.swift */; };
+		6471CDDE212377A900F58166 /* Placemark+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471CDDC212377A900F58166 /* Placemark+CoreDataProperties.swift */; };
+		6471CDE02123804A00F58166 /* BodyQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471CDDF2123804A00F58166 /* BodyQuality.swift */; };
+		6471CDE22123AB9400F58166 /* NSManagedObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471CDE12123AB9400F58166 /* NSManagedObjectExtensions.swift */; };
+		6471CDE42124585400F58166 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6471CDE32124585400F58166 /* Podfile */; };
+		64847D0521206B8A0062FC4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64847D0421206B8A0062FC4C /* AppDelegate.swift */; };
+		64847D0721206B8A0062FC4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64847D0621206B8A0062FC4C /* ViewController.swift */; };
+		64847D0A21206B8A0062FC4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64847D0821206B8A0062FC4C /* Main.storyboard */; };
+		64847D0D21206B8A0062FC4C /* WunderClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64847D0B21206B8A0062FC4C /* WunderClient.xcdatamodeld */; };
+		64847D0F21206B8C0062FC4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64847D0E21206B8C0062FC4C /* Assets.xcassets */; };
+		64847D1221206B8C0062FC4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64847D1021206B8C0062FC4C /* LaunchScreen.storyboard */; };
+		64847D1D21206B8C0062FC4C /* WunderClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64847D1C21206B8C0062FC4C /* WunderClientTests.swift */; };
+		64847D2821206B8C0062FC4C /* WunderClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64847D2721206B8C0062FC4C /* WunderClientUITests.swift */; };
+		C55B47E1338C13A890DC99E8 /* Pods_WunderClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E95379C2C6A63F0DB03D0F /* Pods_WunderClientTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64847D1921206B8C0062FC4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64847CF921206B8A0062FC4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64847D0021206B8A0062FC4C;
+			remoteInfo = WunderClient;
+		};
+		64847D2421206B8C0062FC4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64847CF921206B8A0062FC4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64847D0021206B8A0062FC4C;
+			remoteInfo = WunderClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		164B426723857A81C97FFD91 /* Pods-WunderClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WunderClient/Pods-WunderClient.debug.xcconfig"; sourceTree = "<group>"; };
+		412C1553B5EE6827F7DAEFA8 /* Pods-WunderClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WunderClientTests/Pods-WunderClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6471CDDB212377A900F58166 /* Placemark+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Placemark+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6471CDDC212377A900F58166 /* Placemark+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Placemark+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6471CDDF2123804A00F58166 /* BodyQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyQuality.swift; sourceTree = "<group>"; };
+		6471CDE12123AB9400F58166 /* NSManagedObjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectExtensions.swift; sourceTree = "<group>"; };
+		6471CDE32124585400F58166 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		64847D0121206B8A0062FC4C /* WunderClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WunderClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64847D0421206B8A0062FC4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64847D0621206B8A0062FC4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64847D0921206B8A0062FC4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64847D0C21206B8A0062FC4C /* WunderClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WunderClient.xcdatamodel; sourceTree = "<group>"; };
+		64847D0E21206B8C0062FC4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64847D1121206B8C0062FC4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64847D1321206B8C0062FC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64847D1821206B8C0062FC4C /* WunderClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64847D1C21206B8C0062FC4C /* WunderClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderClientTests.swift; sourceTree = "<group>"; };
+		64847D1E21206B8C0062FC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64847D2321206B8C0062FC4C /* WunderClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64847D2721206B8C0062FC4C /* WunderClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderClientUITests.swift; sourceTree = "<group>"; };
+		64847D2921206B8C0062FC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844F07868852C8917FE8D5CF /* Pods_WunderClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A87DA6A644A43D6EA0FAD2 /* Pods_WunderClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A840DDB6F6BFB78A18C367 /* Pods-WunderClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WunderClientUITests/Pods-WunderClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAC35908BB84A7E775D84004 /* Pods-WunderClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-WunderClient/Pods-WunderClient.release.xcconfig"; sourceTree = "<group>"; };
+		D7E95379C2C6A63F0DB03D0F /* Pods_WunderClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB78B312D518323148D41EF9 /* Pods-WunderClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WunderClientUITests/Pods-WunderClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EE2B9145AA9760633AB1381F /* Pods-WunderClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WunderClientTests/Pods-WunderClientTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64847CFE21206B8A0062FC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E3BEDE62873D67CC28B16F /* Pods_WunderClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64847D1521206B8C0062FC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55B47E1338C13A890DC99E8 /* Pods_WunderClientTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64847D2021206B8C0062FC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490FB3D7552B56D85AB12D54 /* Pods_WunderClientUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64847CF821206B8A0062FC4C = {
+			isa = PBXGroup;
+			children = (
+				64847D0321206B8A0062FC4C /* WunderClient */,
+				64847D1B21206B8C0062FC4C /* WunderClientTests */,
+				64847D2621206B8C0062FC4C /* WunderClientUITests */,
+				64847D0221206B8A0062FC4C /* Products */,
+				9F3A3F002405DB5E855100DB /* Pods */,
+				A6BBF039F36C4C9FD95BBD6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64847D0221206B8A0062FC4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64847D0121206B8A0062FC4C /* WunderClient.app */,
+				64847D1821206B8C0062FC4C /* WunderClientTests.xctest */,
+				64847D2321206B8C0062FC4C /* WunderClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64847D0321206B8A0062FC4C /* WunderClient */ = {
+			isa = PBXGroup;
+			children = (
+				6471CDE32124585400F58166 /* Podfile */,
+				6471CDDB212377A900F58166 /* Placemark+CoreDataClass.swift */,
+				6471CDE12123AB9400F58166 /* NSManagedObjectExtensions.swift */,
+				6471CDDC212377A900F58166 /* Placemark+CoreDataProperties.swift */,
+				6471CDDF2123804A00F58166 /* BodyQuality.swift */,
+				64847D0421206B8A0062FC4C /* AppDelegate.swift */,
+				64847D0621206B8A0062FC4C /* ViewController.swift */,
+				64847D0821206B8A0062FC4C /* Main.storyboard */,
+				64847D0E21206B8C0062FC4C /* Assets.xcassets */,
+				64847D1021206B8C0062FC4C /* LaunchScreen.storyboard */,
+				64847D1321206B8C0062FC4C /* Info.plist */,
+				64847D0B21206B8A0062FC4C /* WunderClient.xcdatamodeld */,
+			);
+			path = WunderClient;
+			sourceTree = "<group>";
+		};
+		64847D1B21206B8C0062FC4C /* WunderClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				64847D1C21206B8C0062FC4C /* WunderClientTests.swift */,
+				64847D1E21206B8C0062FC4C /* Info.plist */,
+			);
+			path = WunderClientTests;
+			sourceTree = "<group>";
+		};
+		64847D2621206B8C0062FC4C /* WunderClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64847D2721206B8C0062FC4C /* WunderClientUITests.swift */,
+				64847D2921206B8C0062FC4C /* Info.plist */,
+			);
+			path = WunderClientUITests;
+			sourceTree = "<group>";
+		};
+		9F3A3F002405DB5E855100DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				164B426723857A81C97FFD91 /* Pods-WunderClient.debug.xcconfig */,
+				CAC35908BB84A7E775D84004 /* Pods-WunderClient.release.xcconfig */,
+				412C1553B5EE6827F7DAEFA8 /* Pods-WunderClientTests.debug.xcconfig */,
+				EE2B9145AA9760633AB1381F /* Pods-WunderClientTests.release.xcconfig */,
+				C6A840DDB6F6BFB78A18C367 /* Pods-WunderClientUITests.debug.xcconfig */,
+				EB78B312D518323148D41EF9 /* Pods-WunderClientUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6BBF039F36C4C9FD95BBD6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				844F07868852C8917FE8D5CF /* Pods_WunderClient.framework */,
+				D7E95379C2C6A63F0DB03D0F /* Pods_WunderClientTests.framework */,
+				A0A87DA6A644A43D6EA0FAD2 /* Pods_WunderClientUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64847D0021206B8A0062FC4C /* WunderClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64847D2C21206B8C0062FC4C /* Build configuration list for PBXNativeTarget "WunderClient" */;
+			buildPhases = (
+				A283AA8822DBAF781C591570 /* [CP] Check Pods Manifest.lock */,
+				64847CFD21206B8A0062FC4C /* Sources */,
+				64847CFE21206B8A0062FC4C /* Frameworks */,
+				64847CFF21206B8A0062FC4C /* Resources */,
+				7B149F18BDD24ECB5EEB8665 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WunderClient;
+			productName = WunderClient;
+			productReference = 64847D0121206B8A0062FC4C /* WunderClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64847D1721206B8C0062FC4C /* WunderClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64847D2F21206B8C0062FC4C /* Build configuration list for PBXNativeTarget "WunderClientTests" */;
+			buildPhases = (
+				D589DD6C18831B46249137D2 /* [CP] Check Pods Manifest.lock */,
+				64847D1421206B8C0062FC4C /* Sources */,
+				64847D1521206B8C0062FC4C /* Frameworks */,
+				64847D1621206B8C0062FC4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64847D1A21206B8C0062FC4C /* PBXTargetDependency */,
+			);
+			name = WunderClientTests;
+			productName = WunderClientTests;
+			productReference = 64847D1821206B8C0062FC4C /* WunderClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64847D2221206B8C0062FC4C /* WunderClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64847D3221206B8C0062FC4C /* Build configuration list for PBXNativeTarget "WunderClientUITests" */;
+			buildPhases = (
+				E1E60879941CA0B31769501B /* [CP] Check Pods Manifest.lock */,
+				64847D1F21206B8C0062FC4C /* Sources */,
+				64847D2021206B8C0062FC4C /* Frameworks */,
+				64847D2121206B8C0062FC4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64847D2521206B8C0062FC4C /* PBXTargetDependency */,
+			);
+			name = WunderClientUITests;
+			productName = WunderClientUITests;
+			productReference = 64847D2321206B8C0062FC4C /* WunderClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64847CF921206B8A0062FC4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = sikander;
+				TargetAttributes = {
+					64847D0021206B8A0062FC4C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					64847D1721206B8C0062FC4C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 64847D0021206B8A0062FC4C;
+					};
+					64847D2221206B8C0062FC4C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 64847D0021206B8A0062FC4C;
+					};
+				};
+			};
+			buildConfigurationList = 64847CFC21206B8A0062FC4C /* Build configuration list for PBXProject "WunderClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64847CF821206B8A0062FC4C;
+			productRefGroup = 64847D0221206B8A0062FC4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64847D0021206B8A0062FC4C /* WunderClient */,
+				64847D1721206B8C0062FC4C /* WunderClientTests */,
+				64847D2221206B8C0062FC4C /* WunderClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64847CFF21206B8A0062FC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64847D1221206B8C0062FC4C /* LaunchScreen.storyboard in Resources */,
+				64847D0F21206B8C0062FC4C /* Assets.xcassets in Resources */,
+				6471CDE42124585400F58166 /* Podfile in Resources */,
+				64847D0A21206B8A0062FC4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64847D1621206B8C0062FC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64847D2121206B8C0062FC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B149F18BDD24ECB5EEB8665 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WunderClient/Pods-WunderClient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WunderClient/Pods-WunderClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A283AA8822DBAF781C591570 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WunderClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D589DD6C18831B46249137D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WunderClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E60879941CA0B31769501B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WunderClientUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64847CFD21206B8A0062FC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6471CDDD212377A900F58166 /* Placemark+CoreDataClass.swift in Sources */,
+				6471CDE22123AB9400F58166 /* NSManagedObjectExtensions.swift in Sources */,
+				6471CDE02123804A00F58166 /* BodyQuality.swift in Sources */,
+				64847D0721206B8A0062FC4C /* ViewController.swift in Sources */,
+				64847D0D21206B8A0062FC4C /* WunderClient.xcdatamodeld in Sources */,
+				6471CDDE212377A900F58166 /* Placemark+CoreDataProperties.swift in Sources */,
+				64847D0521206B8A0062FC4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64847D1421206B8C0062FC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64847D1D21206B8C0062FC4C /* WunderClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64847D1F21206B8C0062FC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64847D2821206B8C0062FC4C /* WunderClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64847D1A21206B8C0062FC4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64847D0021206B8A0062FC4C /* WunderClient */;
+			targetProxy = 64847D1921206B8C0062FC4C /* PBXContainerItemProxy */;
+		};
+		64847D2521206B8C0062FC4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64847D0021206B8A0062FC4C /* WunderClient */;
+			targetProxy = 64847D2421206B8C0062FC4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64847D0821206B8A0062FC4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64847D0921206B8A0062FC4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64847D1021206B8C0062FC4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64847D1121206B8C0062FC4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64847D2A21206B8C0062FC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64847D2B21206B8C0062FC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64847D2D21206B8C0062FC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 164B426723857A81C97FFD91 /* Pods-WunderClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WunderClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sikander.WunderClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64847D2E21206B8C0062FC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAC35908BB84A7E775D84004 /* Pods-WunderClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WunderClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sikander.WunderClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64847D3021206B8C0062FC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 412C1553B5EE6827F7DAEFA8 /* Pods-WunderClientTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WunderClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sikander.WunderClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WunderClient.app/WunderClient";
+			};
+			name = Debug;
+		};
+		64847D3121206B8C0062FC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE2B9145AA9760633AB1381F /* Pods-WunderClientTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WunderClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sikander.WunderClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WunderClient.app/WunderClient";
+			};
+			name = Release;
+		};
+		64847D3321206B8C0062FC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A840DDB6F6BFB78A18C367 /* Pods-WunderClientUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WunderClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sikander.WunderClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WunderClient;
+			};
+			name = Debug;
+		};
+		64847D3421206B8C0062FC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB78B312D518323148D41EF9 /* Pods-WunderClientUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WunderClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sikander.WunderClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WunderClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64847CFC21206B8A0062FC4C /* Build configuration list for PBXProject "WunderClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64847D2A21206B8C0062FC4C /* Debug */,
+				64847D2B21206B8C0062FC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64847D2C21206B8C0062FC4C /* Build configuration list for PBXNativeTarget "WunderClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64847D2D21206B8C0062FC4C /* Debug */,
+				64847D2E21206B8C0062FC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64847D2F21206B8C0062FC4C /* Build configuration list for PBXNativeTarget "WunderClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64847D3021206B8C0062FC4C /* Debug */,
+				64847D3121206B8C0062FC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64847D3221206B8C0062FC4C /* Build configuration list for PBXNativeTarget "WunderClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64847D3321206B8C0062FC4C /* Debug */,
+				64847D3421206B8C0062FC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64847D0B21206B8A0062FC4C /* WunderClient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64847D0C21206B8A0062FC4C /* WunderClient.xcdatamodel */,
+			);
+			currentVersion = 64847D0C21206B8A0062FC4C /* WunderClient.xcdatamodel */;
+			path = WunderClient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64847CF921206B8A0062FC4C /* Project object */;
+}
