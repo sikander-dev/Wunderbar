@@ -114,9 +114,12 @@ public class Placemark: NSManagedObject {
                                engineType: String,
                                moc: NSManagedObjectContext) -> Placemark? {
         
+        NSLog("Creating new placemark in core data with vin: \(vin)")
+        
         if let newPlacemark = insertNewObject(entity: self,
                                               moc: moc) {
             newPlacemark.vin = vin
+            newPlacemark.name = name
             newPlacemark.address = address
             newPlacemark.coordinates = coordinates
             newPlacemark.fuel = fuel

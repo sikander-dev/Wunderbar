@@ -15,13 +15,21 @@
 		6471CDE22123AB9400F58166 /* NSManagedObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471CDE12123AB9400F58166 /* NSManagedObjectExtensions.swift */; };
 		6471CDE42124585400F58166 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6471CDE32124585400F58166 /* Podfile */; };
 		64847D0521206B8A0062FC4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64847D0421206B8A0062FC4C /* AppDelegate.swift */; };
-		64847D0721206B8A0062FC4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64847D0621206B8A0062FC4C /* ViewController.swift */; };
 		64847D0A21206B8A0062FC4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64847D0821206B8A0062FC4C /* Main.storyboard */; };
 		64847D0D21206B8A0062FC4C /* WunderClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64847D0B21206B8A0062FC4C /* WunderClient.xcdatamodeld */; };
 		64847D0F21206B8C0062FC4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64847D0E21206B8C0062FC4C /* Assets.xcassets */; };
 		64847D1221206B8C0062FC4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64847D1021206B8C0062FC4C /* LaunchScreen.storyboard */; };
 		64847D1D21206B8C0062FC4C /* WunderClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64847D1C21206B8C0062FC4C /* WunderClientTests.swift */; };
 		64847D2821206B8C0062FC4C /* WunderClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64847D2721206B8C0062FC4C /* WunderClientUITests.swift */; };
+		6489624021260C5C00F6CE1F /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6489623F21260C5C00F6CE1F /* StringExtensions.swift */; };
+		64EEE60F2124B4DD00FB11D9 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64EEE60E2124B4DD00FB11D9 /* SwiftyJSON.framework */; };
+		64EEE61121255EC600FB11D9 /* PlacemarkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEE61021255EC600FB11D9 /* PlacemarkService.swift */; };
+		64EEE6132125798900FB11D9 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEE6122125798900FB11D9 /* ArrayExtensions.swift */; };
+		64EEE61521257B4100FB11D9 /* NSManagedObjectContextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEE61421257B4100FB11D9 /* NSManagedObjectContextExtensions.swift */; };
+		64EEE6172125935B00FB11D9 /* CarListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEE6162125935B00FB11D9 /* CarListTableViewController.swift */; };
+		64EEE619212597CF00FB11D9 /* CarListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64EEE618212597CF00FB11D9 /* CarListTableViewCell.xib */; };
+		64EEE61B2125A04700FB11D9 /* CarListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEE61A2125A04700FB11D9 /* CarListTableViewCell.swift */; };
+		64FB336D212461C7006F0857 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FB336C212461C7006F0857 /* Alamofire.framework */; };
 		C55B47E1338C13A890DC99E8 /* Pods_WunderClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E95379C2C6A63F0DB03D0F /* Pods_WunderClientTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +60,6 @@
 		6471CDE32124585400F58166 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		64847D0121206B8A0062FC4C /* WunderClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WunderClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64847D0421206B8A0062FC4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		64847D0621206B8A0062FC4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64847D0921206B8A0062FC4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64847D0C21206B8A0062FC4C /* WunderClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WunderClient.xcdatamodel; sourceTree = "<group>"; };
 		64847D0E21206B8C0062FC4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +71,17 @@
 		64847D2321206B8C0062FC4C /* WunderClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64847D2721206B8C0062FC4C /* WunderClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderClientUITests.swift; sourceTree = "<group>"; };
 		64847D2921206B8C0062FC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6489623F21260C5C00F6CE1F /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		64EEE60E2124B4DD00FB11D9 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64EEE61021255EC600FB11D9 /* PlacemarkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkService.swift; sourceTree = "<group>"; };
+		64EEE6122125798900FB11D9 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		64EEE61421257B4100FB11D9 /* NSManagedObjectContextExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectContextExtensions.swift; sourceTree = "<group>"; };
+		64EEE6162125935B00FB11D9 /* CarListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListTableViewController.swift; sourceTree = "<group>"; };
+		64EEE618212597CF00FB11D9 /* CarListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarListTableViewCell.xib; sourceTree = "<group>"; };
+		64EEE61A2125A04700FB11D9 /* CarListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListTableViewCell.swift; sourceTree = "<group>"; };
+		64FB336821245FD9006F0857 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
+		64FB336A21246005006F0857 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Alamofire; path = Pods/Alamofire; sourceTree = "<group>"; };
+		64FB336C212461C7006F0857 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		844F07868852C8917FE8D5CF /* Pods_WunderClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A87DA6A644A43D6EA0FAD2 /* Pods_WunderClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A840DDB6F6BFB78A18C367 /* Pods-WunderClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WunderClientUITests/Pods-WunderClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EEE60F2124B4DD00FB11D9 /* SwiftyJSON.framework in Frameworks */,
+				64FB336D212461C7006F0857 /* Alamofire.framework in Frameworks */,
 				35E3BEDE62873D67CC28B16F /* Pods_WunderClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,9 +150,15 @@
 				6471CDDB212377A900F58166 /* Placemark+CoreDataClass.swift */,
 				6471CDE12123AB9400F58166 /* NSManagedObjectExtensions.swift */,
 				6471CDDC212377A900F58166 /* Placemark+CoreDataProperties.swift */,
+				64EEE61021255EC600FB11D9 /* PlacemarkService.swift */,
 				6471CDDF2123804A00F58166 /* BodyQuality.swift */,
+				64EEE6122125798900FB11D9 /* ArrayExtensions.swift */,
+				6489623F21260C5C00F6CE1F /* StringExtensions.swift */,
+				64EEE61421257B4100FB11D9 /* NSManagedObjectContextExtensions.swift */,
+				64EEE6162125935B00FB11D9 /* CarListTableViewController.swift */,
+				64EEE618212597CF00FB11D9 /* CarListTableViewCell.xib */,
+				64EEE61A2125A04700FB11D9 /* CarListTableViewCell.swift */,
 				64847D0421206B8A0062FC4C /* AppDelegate.swift */,
-				64847D0621206B8A0062FC4C /* ViewController.swift */,
 				64847D0821206B8A0062FC4C /* Main.storyboard */,
 				64847D0E21206B8C0062FC4C /* Assets.xcassets */,
 				64847D1021206B8C0062FC4C /* LaunchScreen.storyboard */,
@@ -176,6 +202,10 @@
 		A6BBF039F36C4C9FD95BBD6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64EEE60E2124B4DD00FB11D9 /* SwiftyJSON.framework */,
+				64FB336C212461C7006F0857 /* Alamofire.framework */,
+				64FB336A21246005006F0857 /* Alamofire */,
+				64FB336821245FD9006F0857 /* Pods */,
 				844F07868852C8917FE8D5CF /* Pods_WunderClient.framework */,
 				D7E95379C2C6A63F0DB03D0F /* Pods_WunderClientTests.framework */,
 				A0A87DA6A644A43D6EA0FAD2 /* Pods_WunderClientUITests.framework */,
@@ -293,6 +323,7 @@
 			files = (
 				64847D1221206B8C0062FC4C /* LaunchScreen.storyboard in Resources */,
 				64847D0F21206B8C0062FC4C /* Assets.xcassets in Resources */,
+				64EEE619212597CF00FB11D9 /* CarListTableViewCell.xib in Resources */,
 				6471CDE42124585400F58166 /* Podfile in Resources */,
 				64847D0A21206B8A0062FC4C /* Main.storyboard in Resources */,
 			);
@@ -323,10 +354,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WunderClient/Pods-WunderClient-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -394,13 +427,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6489624021260C5C00F6CE1F /* StringExtensions.swift in Sources */,
 				6471CDDD212377A900F58166 /* Placemark+CoreDataClass.swift in Sources */,
 				6471CDE22123AB9400F58166 /* NSManagedObjectExtensions.swift in Sources */,
+				64EEE61B2125A04700FB11D9 /* CarListTableViewCell.swift in Sources */,
+				64EEE6172125935B00FB11D9 /* CarListTableViewController.swift in Sources */,
+				64EEE61121255EC600FB11D9 /* PlacemarkService.swift in Sources */,
 				6471CDE02123804A00F58166 /* BodyQuality.swift in Sources */,
-				64847D0721206B8A0062FC4C /* ViewController.swift in Sources */,
 				64847D0D21206B8A0062FC4C /* WunderClient.xcdatamodeld in Sources */,
 				6471CDDE212377A900F58166 /* Placemark+CoreDataProperties.swift in Sources */,
+				64EEE6132125798900FB11D9 /* ArrayExtensions.swift in Sources */,
 				64847D0521206B8A0062FC4C /* AppDelegate.swift in Sources */,
+				64EEE61521257B4100FB11D9 /* NSManagedObjectContextExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,7 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -560,7 +598,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;

@@ -20,8 +20,6 @@ extension Placemark {
     @NSManaged public var address: String?
     @NSManaged public var coordinates: [Double]
     @NSManaged public var engineType: String?
-//    @NSManaged public var interior: Int16
-//    @NSManaged public var exterior: Int16
     @NSManaged public var name: String?
     @NSManaged public var vin: String?
     @NSManaged public var fuel: Int32

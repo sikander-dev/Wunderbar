@@ -18,16 +18,18 @@ enum BodyQuality: String {
         case .good:
             return 0
         case .unacceptable:
-            return 0
+            return 1
         }
     }
     
-    static func get(intValue: Int16) -> BodyQuality {
+    static func get(intValue: Int16) -> BodyQuality? {
         switch intValue {
         case 0:
             return .good
         case 1:
             return .unacceptable
+        default:
+            return nil
         }
     }
     
