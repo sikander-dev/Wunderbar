@@ -148,25 +148,25 @@
 		64847D0321206B8A0062FC4C /* WunderClient */ = {
 			isa = PBXGroup;
 			children = (
-				6471CDE32124585400F58166 /* Podfile */,
-				6471CDDB212377A900F58166 /* Placemark+CoreDataClass.swift */,
-				6471CDE12123AB9400F58166 /* NSManagedObjectExtensions.swift */,
-				6471CDDC212377A900F58166 /* Placemark+CoreDataProperties.swift */,
 				64EEE61021255EC600FB11D9 /* PlacemarkService.swift */,
 				6471CDDF2123804A00F58166 /* BodyQuality.swift */,
+				6471CDE12123AB9400F58166 /* NSManagedObjectExtensions.swift */,
 				64EEE6122125798900FB11D9 /* ArrayExtensions.swift */,
 				6489623F21260C5C00F6CE1F /* StringExtensions.swift */,
 				64EEE61421257B4100FB11D9 /* NSManagedObjectContextExtensions.swift */,
-				64EEE6162125935B00FB11D9 /* CarListTableViewController.swift */,
-				64EEE618212597CF00FB11D9 /* CarListTableViewCell.xib */,
-				64EEE61A2125A04700FB11D9 /* CarListTableViewCell.swift */,
 				648962412126B13F00F6CE1F /* MapViewController.swift */,
+				64EEE6162125935B00FB11D9 /* CarListTableViewController.swift */,
+				64EEE61A2125A04700FB11D9 /* CarListTableViewCell.swift */,
 				64847D0421206B8A0062FC4C /* AppDelegate.swift */,
+				64EEE618212597CF00FB11D9 /* CarListTableViewCell.xib */,
 				64847D0821206B8A0062FC4C /* Main.storyboard */,
-				64847D0E21206B8C0062FC4C /* Assets.xcassets */,
 				64847D1021206B8C0062FC4C /* LaunchScreen.storyboard */,
+				64847D0E21206B8C0062FC4C /* Assets.xcassets */,
+				6471CDE32124585400F58166 /* Podfile */,
 				64847D1321206B8C0062FC4C /* Info.plist */,
 				64847D0B21206B8A0062FC4C /* WunderClient.xcdatamodeld */,
+				6471CDDC212377A900F58166 /* Placemark+CoreDataProperties.swift */,
+				6471CDDB212377A900F58166 /* Placemark+CoreDataClass.swift */,
 			);
 			path = WunderClient;
 			sourceTree = "<group>";

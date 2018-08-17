@@ -11,21 +11,6 @@ import CoreData
 
 extension NSManagedObject {
     
-    func setRawValue<ValueType: RawRepresentable>(value: ValueType, forKey key: String)
-    {
-        willChangeValue(forKey: key)
-        setPrimitiveValue(value.rawValue, forKey: key)
-        didChangeValue(forKey: key)
-    }
-    
-    func rawValueForKey<ValueType: RawRepresentable>(key: String) -> ValueType?
-    {
-        willAccessValue(forKey: key)
-        let result = primitiveValue(forKey: key) as! ValueType.RawValue
-        didAccessValue(forKey: key)
-        return ValueType(rawValue: result)
-    }
-    
     static func entityName() -> String {
         let string = String(describing: self)
         return string

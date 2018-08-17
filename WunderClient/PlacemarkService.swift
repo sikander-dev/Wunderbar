@@ -68,7 +68,6 @@ class PlacemarkService {
             }
             
             let json = JSON(jsonObject)
-            NSLog("json: \(json)")
             
             let placemarkResponses = PlacemarkService.parse(placemarksJSON: json)
             self?.persist(placemarks: placemarkResponses)

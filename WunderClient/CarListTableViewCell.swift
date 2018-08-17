@@ -45,7 +45,7 @@ class CarListTableViewCell: UITableViewCell {
         addressLabel.text = address
     }
     
-    func getImage(for bodyQuality: BodyQuality) -> UIImage? {
+    private func getImage(for bodyQuality: BodyQuality) -> UIImage? {
         switch bodyQuality {
         case .good:
             return UIImage(named: "ThumbsUp")

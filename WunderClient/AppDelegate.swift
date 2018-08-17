@@ -17,13 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     var placemarkService: PlacemarkService!
-
+    
+    private let googleMapsAPIKey = "AIzaSyDF-D-S0c2FdgdWnCfv5Vlv1fcuyXdrSA0"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         setRootViewController()
         setupGoogleMaps()
-        
         
         placemarkService = PlacemarkService(moc: persistentContainer.newBackgroundContext())
         placemarkService.fetchPlacemarks()
@@ -56,8 +56,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func setupGoogleMaps() {
-        GMSServices.provideAPIKey("AIzaSyDF-D-S0c2FdgdWnCfv5Vlv1fcuyXdrSA0")
-        GMSPlacesClient.provideAPIKey("AIzaSyDF-D-S0c2FdgdWnCfv5Vlv1fcuyXdrSA0")
+        GMSServices.provideAPIKey(googleMapsAPIKey)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

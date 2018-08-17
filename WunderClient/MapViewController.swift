@@ -97,6 +97,7 @@ NSFetchedResultsControllerDelegate, GMSMapViewDelegate {
         }
     }
     
+    // Update camera position to first marker.
     private func updateCamera() {
         if let placemark = fetchedResultsController.fetchedObjects?.first,
             let latitude = placemark.latitude,
@@ -115,7 +116,7 @@ NSFetchedResultsControllerDelegate, GMSMapViewDelegate {
         marker.position = CLLocationCoordinate2D(latitude: latitude,
                                                  longitude: longitude)
         marker.title = name
-        // Did not use this asset as the marker clutering was not looking good
+        // Did not use this asset as the marker clutering was not looking good.
         //marker.icon = UIImage(named: "CarIcon")
         return marker
     }
