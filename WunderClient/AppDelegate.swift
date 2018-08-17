@@ -88,7 +88,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     lazy var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "WunderClient")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
-            container.viewContext.automaticallyMergesChangesFromParent = true
             if let error = error as NSError? {
                 NSLog("Unresolved error \(error), \(error.userInfo)")
             }

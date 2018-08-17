@@ -23,6 +23,7 @@
 		64847D2821206B8C0062FC4C /* WunderClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64847D2721206B8C0062FC4C /* WunderClientUITests.swift */; };
 		6489624021260C5C00F6CE1F /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6489623F21260C5C00F6CE1F /* StringExtensions.swift */; };
 		648962422126B13F00F6CE1F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648962412126B13F00F6CE1F /* MapViewController.swift */; };
+		6491171D212758C8006F268F /* ArrayExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6491171C212758C8006F268F /* ArrayExtensionsTests.swift */; };
 		64EEE60F2124B4DD00FB11D9 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64EEE60E2124B4DD00FB11D9 /* SwiftyJSON.framework */; };
 		64EEE61121255EC600FB11D9 /* PlacemarkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEE61021255EC600FB11D9 /* PlacemarkService.swift */; };
 		64EEE6132125798900FB11D9 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEE6122125798900FB11D9 /* ArrayExtensions.swift */; };
@@ -74,6 +75,7 @@
 		64847D2921206B8C0062FC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6489623F21260C5C00F6CE1F /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		648962412126B13F00F6CE1F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6491171C212758C8006F268F /* ArrayExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionsTests.swift; sourceTree = "<group>"; };
 		64EEE60E2124B4DD00FB11D9 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64EEE61021255EC600FB11D9 /* PlacemarkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkService.swift; sourceTree = "<group>"; };
 		64EEE6122125798900FB11D9 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				64847D1C21206B8C0062FC4C /* WunderClientTests.swift */,
+				6491171C212758C8006F268F /* ArrayExtensionsTests.swift */,
 				64847D1E21206B8C0062FC4C /* Info.plist */,
 			);
 			path = WunderClientTests;
@@ -472,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64847D1D21206B8C0062FC4C /* WunderClientTests.swift in Sources */,
+				6491171D212758C8006F268F /* ArrayExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +681,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3N2H5L77G;
 				INFOPLIST_FILE = WunderClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -698,6 +703,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3N2H5L77G;
 				INFOPLIST_FILE = WunderClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
