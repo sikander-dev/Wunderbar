@@ -8,6 +8,8 @@ target 'WunderClient' do
   # Pods for WunderClient
   pod 'Alamofire', '~> 4.7'
   pod 'SwiftyJSON', '~> 4.1'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
   
   target 'WunderClientTests' do
     inherit! :search_paths

@@ -8,8 +8,8 @@
 
 import UIKit
 import CoreData
-import Alamofire
-import SwiftyJSON
+import GoogleMaps
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         setRootViewController()
+        setupGoogleMaps()
         
         
         placemarkService = PlacemarkService(moc: persistentContainer.newBackgroundContext())
@@ -43,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         carListNavigationController.tabBarItem = UITabBarItem(title: "LIST",
                                                               image: UIImage(named: "ListIcon"),
                                                               selectedImage: UIImage(named: "SelectedListIcon"))
-        let mapViewController = UIViewController()
+        let mapViewController = MapViewController(moc: persistentContainer.viewContext)
         mapViewController.tabBarItem = UITabBarItem(title: "MAP",
                                                     image: UIImage(named: "MapIcon"),
                                                     selectedImage: UIImage(named: "SelectedMapIcon"))
@@ -52,6 +53,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window.rootViewController = tabBarController
         window.makeKeyAndVisible()
+    }
+    
+    func setupGoogleMaps() {
+        GMSServices.provideAPIKey("AIzaSyDF-D-S0c2FdgdWnCfv5Vlv1fcuyXdrSA0")
+        GMSPlacesClient.provideAPIKey("AIzaSyDF-D-S0c2FdgdWnCfv5Vlv1fcuyXdrSA0")
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

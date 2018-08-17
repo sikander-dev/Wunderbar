@@ -61,6 +61,22 @@ public class Placemark: NSManagedObject {
         }
     }
     
+    var latitude: Double? {
+        get {
+            if coordinates.count >= 2 {
+                return coordinates[1]
+            } else {
+                return nil
+            }
+        }
+    }
+    
+    var longitude: Double? {
+        get {
+            return coordinates.first
+        }
+    }
+    
     static func getOrCreate(vin: String,
                             name: String,
                             address: String,

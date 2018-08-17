@@ -48,6 +48,8 @@ class CarListTableViewController: UITableViewController, NSFetchedResultsControl
         }
     }
     
+    // MARK: UITableViewDelegate
+    
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let text = fetchedResultsController.object(at: indexPath).address
         let margin: CGFloat = 16
@@ -59,6 +61,8 @@ class CarListTableViewController: UITableViewController, NSFetchedResultsControl
         let fixedCellHeight: CGFloat = 140
         return fixedCellHeight + addressLabelHeight
     }
+    
+    // MARK: UITableViewDataSource
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return fetchedResultsController.fetchedObjects?.count ?? 0
@@ -89,6 +93,8 @@ class CarListTableViewController: UITableViewController, NSFetchedResultsControl
         }
         return cell
     }
+    
+    // MARK: NSFetchedResultsControllerDelegate
     
     func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
         tableView?.reloadData()
